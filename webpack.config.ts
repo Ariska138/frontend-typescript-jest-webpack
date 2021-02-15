@@ -1,7 +1,7 @@
 import path from 'path'
 import webpack from 'webpack'
-import HtmlWebpackPlugin from 'html-webpack-plugin'
-import { CleanWebpackPlugin } from 'clean-webpack-plugin'
+// import HtmlWebpackPlugin from 'html-webpack-plugin'
+// import { CleanWebpackPlugin } from 'clean-webpack-plugin'
 import { TsConfigPathsPlugin } from 'awesome-typescript-loader'
 
 const config: webpack.Configuration = {
