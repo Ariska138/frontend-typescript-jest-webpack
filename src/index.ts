@@ -5,4 +5,6 @@ import jquery = require("jquery");
 const $: JQueryStatic = jquery;
 
 //application bootstrap goes here
-document.getElementsByTagName('body')[0].innerText = myTest() ? "yup" : "nope";
+document.getElementsByTagName('span')[0].innerText = myTest() ? "yup" : "nope";
+
+$('p').html('Hello TS');
