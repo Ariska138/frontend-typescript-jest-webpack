@@ -13,15 +13,15 @@ const config: webpack.Configuration = {
         ]
     },
     entry: './src/index.ts',
-    plugins: [
-        new CleanWebpackPlugin(),
-        new HtmlWebpackPlugin({
-            template: 'src/index.html'
-          })
-    ],
+    // plugins: [
+    //     new CleanWebpackPlugin(),
+    //     new HtmlWebpackPlugin({
+    //         template: 'src/index.html'
+    //       })
+    // ],
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname+"/public", 'dist')
     },
 
     module: {
