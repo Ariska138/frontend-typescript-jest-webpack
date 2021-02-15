@@ -16,8 +16,8 @@ const config: webpack.Configuration = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'frontend typescript jest template'
-        })
+            template: 'src/index.html'
+          })
     ],
     output: {
         filename: 'bundle.js',
